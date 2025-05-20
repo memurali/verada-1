@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function () {
             body: JSON.stringify({ email, password })
         })
         .then(response => response.json())
-            consolse.log(response,response.json(),".")
+            consolse.log(response,response.json(),".>>>>>>>>>>>>>>>>>>>")
         .then(data => {
             console.log(response,data, "response")
             if (data.success && data.mfa) {
